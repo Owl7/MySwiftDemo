@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097F7BC3B21C9CACFCE5A0096443CA94 /* ChainableAnimations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 809917DA33DA073034291359318BE2B3 /* ChainableAnimations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BC9EE2C35B2F5419F9ED9C11EA5D9E6 /* JHAnimationChainLink.m in Sources */ = {isa = PBXBuildFile; fileRef = D16538DE0233454F4F6C95344B35E862 /* JHAnimationChainLink.m */; };
+		37512814626E04B46C75F4C5535A8218 /* JHKeyframeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DB2877CB3DB430C87F9AC3A8B6EA58 /* JHKeyframeAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EBE24FA443A21316991363EB308940A /* JHChainableBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = CF8BCA63F796A3236A32AC87A2ECD60A /* JHChainableBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602E4282494A8A3AED93ECCF86FD3CC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		61D39DDD66E9857DCE78BB6F549819A8 /* ChainableAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB4408F239E4E473B310E7F03B5960 /* ChainableAnimator.swift */; };
+		64833DD5784949F430915A04BBFB4B0C /* JHKeyframeAnimationFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = D4A5938839007E2C65EB9E8EAADD22C0 /* JHKeyframeAnimationFunctions.c */; };
+		742C982FCAC3F4AF6D992B1AFC502269 /* UIView+ChainableAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01CBE9ADB14F5AEA2F991F2F149C60E /* UIView+ChainableAnimator.swift */; };
+		8098D603AF4A09AC90796DED51BB4C11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		80997691AC3CDE50F09F800394232FD7 /* JHChainableAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AA36A2213DAA49455A738543397C8E /* JHChainableAnimator.m */; };
+		A884389F8A022E938E249AF2F2F38AFD /* ChainableAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F941B642F514BA51A01A5FEA16AE626 /* ChainableAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDA6A112C657DB2C5593E2395BF96A3C /* JHKeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2778429CBC751C0C2C606D1DB0672E6B /* JHKeyframeAnimation.m */; };
+		CBD0DCE3DB8AE4CA0AB47E3BE23B19A8 /* Pods-SwiftDemo15-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C33CD9FB9EFD498DB31553161CD232D2 /* Pods-SwiftDemo15-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF5014A0BAA8EF05C4C22FCED0626A1F /* JHChainableAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 39889031FED46928A65AC97F47CB6724 /* JHChainableAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5B4A3A972F1A629B41A268453CECBD8 /* Pods-SwiftDemo15-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B6FB3B98476E663E96F1BB2B335041 /* Pods-SwiftDemo15-dummy.m */; };
+		DCD7F38266E5D4F796356D4F41F8849B /* ChainableAnimations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A2344A4246DB4CADA81F3F1E70FE48 /* ChainableAnimations-dummy.m */; };
+		F1BD10BD16ABFDA4D6028A55CBF1A413 /* JHKeyframeAnimationFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = E20B69BB28FB914E336123C78E28A968 /* JHKeyframeAnimationFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEE46A293E81DCEF1970F1DFBC76397A /* JHAnimationChainLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B77F9DE6A50622FC0A3DEF7D1893948 /* JHAnimationChainLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD5F08099A6F6DC1D65AF000DD0C6D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92D8B8DB09376C9E66FEE66E99F13877;
+			remoteInfo = ChainableAnimations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B11FE029F2E592026E73AB213D61C33 /* ChainableAnimations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChainableAnimations.xcconfig; sourceTree = "<group>"; };
+		0FFC0D6A8596EE58435E72E4A0E7163F /* ChainableAnimations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChainableAnimations.framework; path = ChainableAnimations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D1261E369AB41731C8183ABED2117E /* Pods-SwiftDemo15-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftDemo15-resources.sh"; sourceTree = "<group>"; };
+		1EC8A8EC76047F53D34B0FD7BEFFB5D1 /* Pods-SwiftDemo15-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftDemo15-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23EC04DC8E6AD96C789B46E8BFDDBFF5 /* ChainableAnimations.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ChainableAnimations.modulemap; sourceTree = "<group>"; };
+		2778429CBC751C0C2C606D1DB0672E6B /* JHKeyframeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHKeyframeAnimation.m; path = JHChainableAnimations/JHKeyframeAnimation.m; sourceTree = "<group>"; };
+		2A319B3A05495A60DD9FDA3DBA92A4EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39889031FED46928A65AC97F47CB6724 /* JHChainableAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHChainableAnimator.h; path = JHChainableAnimations/JHChainableAnimator.h; sourceTree = "<group>"; };
+		5685DDA07C7E8DC5203773D592CED56C /* Pods_SwiftDemo15.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftDemo15.framework; path = "Pods-SwiftDemo15.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5865D769D7D73EAB3AB2D06A0E2F2B21 /* Pods-SwiftDemo15-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftDemo15-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B77F9DE6A50622FC0A3DEF7D1893948 /* JHAnimationChainLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHAnimationChainLink.h; path = JHChainableAnimations/JHAnimationChainLink.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		71C723BDB7D7CF487860C8AA66D6A3B2 /* Pods-SwiftDemo15.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftDemo15.debug.xcconfig"; sourceTree = "<group>"; };
+		751FEF1565D086FA56361CB22405D0F4 /* Pods-SwiftDemo15-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftDemo15-frameworks.sh"; sourceTree = "<group>"; };
+		7F941B642F514BA51A01A5FEA16AE626 /* ChainableAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChainableAnimations.h; path = "Frameworks-Swift/ChainableAnimations.h"; sourceTree = "<group>"; };
+		809917DA33DA073034291359318BE2B3 /* ChainableAnimations-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChainableAnimations-umbrella.h"; sourceTree = "<group>"; };
+		80A2344A4246DB4CADA81F3F1E70FE48 /* ChainableAnimations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChainableAnimations-dummy.m"; sourceTree = "<group>"; };
+		8D39843FA9EF76CC4D8FCE6038C8F3A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945E0D9F8610F9553D4C1EAD863636A7 /* Pods-SwiftDemo15.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftDemo15.modulemap"; sourceTree = "<group>"; };
+		99E1265F04E9DB421CDCAEDD628C4A4D /* Pods-SwiftDemo15.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftDemo15.release.xcconfig"; sourceTree = "<group>"; };
+		A0B6FB3B98476E663E96F1BB2B335041 /* Pods-SwiftDemo15-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftDemo15-dummy.m"; sourceTree = "<group>"; };
+		C33CD9FB9EFD498DB31553161CD232D2 /* Pods-SwiftDemo15-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftDemo15-umbrella.h"; sourceTree = "<group>"; };
+		CF8BCA63F796A3236A32AC87A2ECD60A /* JHChainableBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHChainableBlocks.h; path = JHChainableAnimations/JHChainableBlocks.h; sourceTree = "<group>"; };
+		D01CBE9ADB14F5AEA2F991F2F149C60E /* UIView+ChainableAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+ChainableAnimator.swift"; path = "JHChainableAnimations/UIView+ChainableAnimator.swift"; sourceTree = "<group>"; };
+		D16538DE0233454F4F6C95344B35E862 /* JHAnimationChainLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHAnimationChainLink.m; path = JHChainableAnimations/JHAnimationChainLink.m; sourceTree = "<group>"; };
+		D4A5938839007E2C65EB9E8EAADD22C0 /* JHKeyframeAnimationFunctions.c */ = {isa = PBXFileReference; includeInIndex = 1; name = JHKeyframeAnimationFunctions.c; path = JHChainableAnimations/JHKeyframeAnimationFunctions.c; sourceTree = "<group>"; };
+		DC29B1C7F2FDEF022D95FBE5114656C4 /* ChainableAnimations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChainableAnimations-prefix.pch"; sourceTree = "<group>"; };
+		E20B69BB28FB914E336123C78E28A968 /* JHKeyframeAnimationFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHKeyframeAnimationFunctions.h; path = JHChainableAnimations/JHKeyframeAnimationFunctions.h; sourceTree = "<group>"; };
+		E8CB4408F239E4E473B310E7F03B5960 /* ChainableAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChainableAnimator.swift; path = JHChainableAnimations/ChainableAnimator.swift; sourceTree = "<group>"; };
+		F5AA36A2213DAA49455A738543397C8E /* JHChainableAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHChainableAnimator.m; path = JHChainableAnimations/JHChainableAnimator.m; sourceTree = "<group>"; };
+		F8DB2877CB3DB430C87F9AC3A8B6EA58 /* JHKeyframeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHKeyframeAnimation.h; path = JHChainableAnimations/JHKeyframeAnimation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88F9E0FCBCA986E384E90EDAD21829E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602E4282494A8A3AED93ECCF86FD3CC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA2D3A896832D394331365BC37961C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8098D603AF4A09AC90796DED51BB4C11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1115DFAD330F8F1CBD7536B1B070BBD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FFC0D6A8596EE58435E72E4A0E7163F /* ChainableAnimations.framework */,
+				5685DDA07C7E8DC5203773D592CED56C /* Pods_SwiftDemo15.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C203CCEC04A97A6F9A45AF216E6F183 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D93E60186AC81FE8F07FF3F8738DA6 /* Pods-SwiftDemo15 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				898678E4778297D59D571BC8751D1846 /* Pods */,
+				1115DFAD330F8F1CBD7536B1B070BBD2 /* Products */,
+				5C203CCEC04A97A6F9A45AF216E6F183 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		898678E4778297D59D571BC8751D1846 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C970B471E6FF9EAF92189A566889A6F8 /* ChainableAnimations */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6D93E60186AC81FE8F07FF3F8738DA6 /* Pods-SwiftDemo15 */ = {
+			isa = PBXGroup;
+			children = (
+				8D39843FA9EF76CC4D8FCE6038C8F3A8 /* Info.plist */,
+				945E0D9F8610F9553D4C1EAD863636A7 /* Pods-SwiftDemo15.modulemap */,
+				1EC8A8EC76047F53D34B0FD7BEFFB5D1 /* Pods-SwiftDemo15-acknowledgements.markdown */,
+				5865D769D7D73EAB3AB2D06A0E2F2B21 /* Pods-SwiftDemo15-acknowledgements.plist */,
+				A0B6FB3B98476E663E96F1BB2B335041 /* Pods-SwiftDemo15-dummy.m */,
+				751FEF1565D086FA56361CB22405D0F4 /* Pods-SwiftDemo15-frameworks.sh */,
+				10D1261E369AB41731C8183ABED2117E /* Pods-SwiftDemo15-resources.sh */,
+				C33CD9FB9EFD498DB31553161CD232D2 /* Pods-SwiftDemo15-umbrella.h */,
+				71C723BDB7D7CF487860C8AA66D6A3B2 /* Pods-SwiftDemo15.debug.xcconfig */,
+				99E1265F04E9DB421CDCAEDD628C4A4D /* Pods-SwiftDemo15.release.xcconfig */,
+			);
+			name = "Pods-SwiftDemo15";
+			path = "Target Support Files/Pods-SwiftDemo15";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C970B471E6FF9EAF92189A566889A6F8 /* ChainableAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				7F941B642F514BA51A01A5FEA16AE626 /* ChainableAnimations.h */,
+				E8CB4408F239E4E473B310E7F03B5960 /* ChainableAnimator.swift */,
+				5B77F9DE6A50622FC0A3DEF7D1893948 /* JHAnimationChainLink.h */,
+				D16538DE0233454F4F6C95344B35E862 /* JHAnimationChainLink.m */,
+				39889031FED46928A65AC97F47CB6724 /* JHChainableAnimator.h */,
+				F5AA36A2213DAA49455A738543397C8E /* JHChainableAnimator.m */,
+				CF8BCA63F796A3236A32AC87A2ECD60A /* JHChainableBlocks.h */,
+				F8DB2877CB3DB430C87F9AC3A8B6EA58 /* JHKeyframeAnimation.h */,
+				2778429CBC751C0C2C606D1DB0672E6B /* JHKeyframeAnimation.m */,
+				D4A5938839007E2C65EB9E8EAADD22C0 /* JHKeyframeAnimationFunctions.c */,
+				E20B69BB28FB914E336123C78E28A968 /* JHKeyframeAnimationFunctions.h */,
+				D01CBE9ADB14F5AEA2F991F2F149C60E /* UIView+ChainableAnimator.swift */,
+				F70087CED954ED66A8DF78C0D9731428 /* Support Files */,
+			);
+			name = ChainableAnimations;
+			path = ChainableAnimations;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F70087CED954ED66A8DF78C0D9731428 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23EC04DC8E6AD96C789B46E8BFDDBFF5 /* ChainableAnimations.modulemap */,
+				0B11FE029F2E592026E73AB213D61C33 /* ChainableAnimations.xcconfig */,
+				80A2344A4246DB4CADA81F3F1E70FE48 /* ChainableAnimations-dummy.m */,
+				DC29B1C7F2FDEF022D95FBE5114656C4 /* ChainableAnimations-prefix.pch */,
+				809917DA33DA073034291359318BE2B3 /* ChainableAnimations-umbrella.h */,
+				2A319B3A05495A60DD9FDA3DBA92A4EF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChainableAnimations";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B649AB92532A4E66312C85B684DCC8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD0DCE3DB8AE4CA0AB47E3BE23B19A8 /* Pods-SwiftDemo15-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24308F3F6A565C990C50646504ECF286 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097F7BC3B21C9CACFCE5A0096443CA94 /* ChainableAnimations-umbrella.h in Headers */,
+				A884389F8A022E938E249AF2F2F38AFD /* ChainableAnimations.h in Headers */,
+				FEE46A293E81DCEF1970F1DFBC76397A /* JHAnimationChainLink.h in Headers */,
+				CF5014A0BAA8EF05C4C22FCED0626A1F /* JHChainableAnimator.h in Headers */,
+				4EBE24FA443A21316991363EB308940A /* JHChainableBlocks.h in Headers */,
+				37512814626E04B46C75F4C5535A8218 /* JHKeyframeAnimation.h in Headers */,
+				F1BD10BD16ABFDA4D6028A55CBF1A413 /* JHKeyframeAnimationFunctions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5FBB84D8CBF3FCBCC3B88C5C1FE53002 /* Pods-SwiftDemo15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A929D08154938D81472ED7A32B8751EA /* Build configuration list for PBXNativeTarget "Pods-SwiftDemo15" */;
+			buildPhases = (
+				6E9718E4F0F5F39B6E7387BA8D61B411 /* Sources */,
+				BEA2D3A896832D394331365BC37961C2 /* Frameworks */,
+				0B649AB92532A4E66312C85B684DCC8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E410F05E49DA20F4E058D0A0725209 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftDemo15";
+			productName = "Pods-SwiftDemo15";
+			productReference = 5685DDA07C7E8DC5203773D592CED56C /* Pods_SwiftDemo15.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92D8B8DB09376C9E66FEE66E99F13877 /* ChainableAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897D1C5664D5E0C82404812154E6E12E /* Build configuration list for PBXNativeTarget "ChainableAnimations" */;
+			buildPhases = (
+				8497F579CFFF6DC0952C487959E0B74C /* Sources */,
+				88F9E0FCBCA986E384E90EDAD21829E1 /* Frameworks */,
+				24308F3F6A565C990C50646504ECF286 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChainableAnimations;
+			productName = ChainableAnimations;
+			productReference = 0FFC0D6A8596EE58435E72E4A0E7163F /* ChainableAnimations.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1115DFAD330F8F1CBD7536B1B070BBD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92D8B8DB09376C9E66FEE66E99F13877 /* ChainableAnimations */,
+				5FBB84D8CBF3FCBCC3B88C5C1FE53002 /* Pods-SwiftDemo15 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E9718E4F0F5F39B6E7387BA8D61B411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B4A3A972F1A629B41A268453CECBD8 /* Pods-SwiftDemo15-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8497F579CFFF6DC0952C487959E0B74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD7F38266E5D4F796356D4F41F8849B /* ChainableAnimations-dummy.m in Sources */,
+				61D39DDD66E9857DCE78BB6F549819A8 /* ChainableAnimator.swift in Sources */,
+				1BC9EE2C35B2F5419F9ED9C11EA5D9E6 /* JHAnimationChainLink.m in Sources */,
+				80997691AC3CDE50F09F800394232FD7 /* JHChainableAnimator.m in Sources */,
+				BDA6A112C657DB2C5593E2395BF96A3C /* JHKeyframeAnimation.m in Sources */,
+				64833DD5784949F430915A04BBFB4B0C /* JHKeyframeAnimationFunctions.c in Sources */,
+				742C982FCAC3F4AF6D992B1AFC502269 /* UIView+ChainableAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E410F05E49DA20F4E058D0A0725209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChainableAnimations;
+			target = 92D8B8DB09376C9E66FEE66E99F13877 /* ChainableAnimations */;
+			targetProxy = CD5F08099A6F6DC1D65AF000DD0C6D93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5C54B55A76C2BCC84EF5E46D1A30047B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C723BDB7D7CF487860C8AA66D6A3B2 /* Pods-SwiftDemo15.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftDemo15/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftDemo15/Pods-SwiftDemo15.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftDemo15;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76605FB01EA9D6250E3B1D0CCB775ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B11FE029F2E592026E73AB213D61C33 /* ChainableAnimations.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChainableAnimations/ChainableAnimations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChainableAnimations/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChainableAnimations/ChainableAnimations.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ChainableAnimations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81BF94E201026E3CCA14165347CD1ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B11FE029F2E592026E73AB213D61C33 /* ChainableAnimations.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChainableAnimations/ChainableAnimations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChainableAnimations/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChainableAnimations/ChainableAnimations.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ChainableAnimations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FFA7EA1336571A4F12D80238558BE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E1265F04E9DB421CDCAEDD628C4A4D /* Pods-SwiftDemo15.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftDemo15/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftDemo15/Pods-SwiftDemo15.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftDemo15;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897D1C5664D5E0C82404812154E6E12E /* Build configuration list for PBXNativeTarget "ChainableAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76605FB01EA9D6250E3B1D0CCB775ACB /* Debug */,
+				81BF94E201026E3CCA14165347CD1ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A929D08154938D81472ED7A32B8751EA /* Build configuration list for PBXNativeTarget "Pods-SwiftDemo15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C54B55A76C2BCC84EF5E46D1A30047B /* Debug */,
+				8FFA7EA1336571A4F12D80238558BE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

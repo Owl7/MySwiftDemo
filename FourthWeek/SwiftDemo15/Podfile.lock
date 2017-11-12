@@ -1,0 +1,12 @@
+PODS:
+  - ChainableAnimations (3.0.1)
+
+DEPENDENCIES:
+  - ChainableAnimations (~> 3.0.1)
+
+SPEC CHECKSUMS:
+  ChainableAnimations: 12e0a88e72fb554ad4cda38c40474e4d65c972a2
+
+PODFILE CHECKSUM: 8f42d7ef64e0a88fec956d77b09646c612160ea6
+
+COCOAPODS: 1.2.1
